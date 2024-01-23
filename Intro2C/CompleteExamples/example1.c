@@ -2,7 +2,7 @@
 /**
  * main- entry point
  *
- * Return: 0 (success)
+ * Return: void (always success)
 */
 int main(void)
 /* Function declaration ^ */
@@ -14,5 +14,4 @@ int main(void)
 	{
 		printf("The number %d is less than 10\n", num);
 	}
-	return (0);
 }

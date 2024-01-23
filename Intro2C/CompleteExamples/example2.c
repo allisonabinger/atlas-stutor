@@ -2,7 +2,7 @@
 /**
  * main- entry point
  *
- * Return: 0 (success)
+ * Return: void (always success)
 */
 int main(void)
 {
@@ -21,3 +21,4 @@ int main(void)
 		printf("The number %d is between 3 and 6\n", num);
 	}
 }
+
