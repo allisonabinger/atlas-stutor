@@ -52,33 +52,35 @@ int main(void)
 
 	for (countdown = 5; countdown <= 8; countdown++)
 	{
+		/* starts loop to give the 5, 6, 7, 8 (tempo) */
 		printf("%d\n", countdown);
 		sleep(1);
 	}
-	measure++;
-	while (measure <= 4)
+	measure++; /* moves to measure 1 */
+	while (measure <= 4) /* how long is your song? this one is 4 measures long! */
 	{
-		printf("Measure: %d\n", measure);
+		printf("Measure: %d\n", measure); /* prints your measure before the beat starts */
 		for (beat = 1; beat <= 4; beat++)
+		/* starts your beat! this is the 4/4 time signature */
 		{
-			printf("%d - ", beat);
-			if ((beat % 2) != 0)
+			printf("%d - ", beat); /* prints which beat you're on inside the measure */
+			if ((beat % 2) != 0) /* if the beat is odd, call the play_tambourine function */
 			{
 				play_tambourine();
 				sleep(1);
 			}
-			else
+			else /* i.e. if the beat is NOT odd (if it is even) */
 			{
-				if (beat == 4)
+				if (beat == 4) /* check if the beat is beat #4, if it is, do this first! */
 				{
-					play_maracas();
+					play_maracas(); /* calls play_maracas function */
 				}
-					clap_along();
-					sleep(1);
+				clap_along(); /* after checking for beat #4, it will carry out clap_along */
+				sleep(1);
 			}
 		}
-		measure++;
+		measure++; /* increment the mesure to restart the while loop, now on next measure! */
 	}
-	play_triangle();
-	return (0);
+	play_triangle(); /* end the song with a triangle ding! */
+	return (0); /* return 0 to indicate successful loop */
 }
