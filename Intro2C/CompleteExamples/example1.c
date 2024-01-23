@@ -11,7 +11,9 @@ int main(void)
 	/* variable declaration*/
 
 	if (num < 10)
+	/* conditional statement */
 	{
 		printf("The number %d is less than 10\n", num);
+		/* print using the %d format specifier */
 	}
 }
