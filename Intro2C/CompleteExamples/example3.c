@@ -8,8 +8,10 @@
 int main(void)
 {
 	int num;
+	/* declaring int variable with no value */
 
 	for (num = 0; num < 11; num++)
+	/* iteration, assigns value to num, limit for loop to stop, and increment amount */
 	{
 		if (num < 3)
 		{
@@ -24,5 +26,8 @@ int main(void)
 			printf("The number %d is between 3 and 6\n", num);
 		}
 		sleep(1);
+		/* waits 1 second for loop to continue */
 	}
+	return (0);
+	/* returns int value of 0, successful */
 }
