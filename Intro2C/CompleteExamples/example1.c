@@ -16,4 +16,6 @@ int main(void)
 		printf("The number %d is less than 10\n", num);
 		/* print using the %d format specifier */
 	}
+	return (0);
+	/* return statement using int (0) to indicate success */
 }
