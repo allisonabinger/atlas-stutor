@@ -24,8 +24,15 @@ void play_triangle(void)
 int main(void)
 {
 	int beat;
-	int measure = 1;
+	int measure = 0;
+	int countdown;
 
+	for (countdown = 5; countdown <= 8; countdown++)
+	{
+		printf("%d\n", countdown);
+		sleep(1);
+	}
+	measure++;
 	while (measure <= 4)
 	{
 		printf("Measure: %d\n", measure);
