@@ -1,26 +1,49 @@
 #include <stdio.h>
 #include <unistd.h>
-
+/**
+ * play_maracas- gives cue for instrument
+ *
+ * Return: void (success)
+*/
 void play_maracas(void)
 {
-    printf("Maracas shake! ");
+		printf("Maracas shake! ");
 }
 
+/**
+ * play_tambourine- gives cue for instrument
+ *
+ * Return: void (success)
+*/
 void play_tambourine(void)
 {
-    printf("Tambourine beat!\n");
+		printf("Tambourine beat!\n");
 }
 
+/**
+ * clap_along- gives cue for instrument
+ *
+ * Return: void (success)
+*/
 void clap_along(void)
 {
 	printf("Audience Claps!\n");
 }
 
+/**
+ * play_triangle- gives cue for instrument
+ *
+ * Return: void (success)
+*/
 void play_triangle(void)
 {
 	printf("Play Triangle!\n");
 }
-
+/**
+ * main- main loop for music!
+ *
+ * Return: 0 (successful loop)
+*/
 int main(void)
 {
 	int beat;
@@ -36,7 +59,7 @@ int main(void)
 	while (measure <= 4)
 	{
 		printf("Measure: %d\n", measure);
-		for (beat = 1; beat <=4; beat++)
+		for (beat = 1; beat <= 4; beat++)
 		{
 			printf("%d - ", beat);
 			if ((beat % 2) != 0)
@@ -57,4 +80,5 @@ int main(void)
 		measure++;
 	}
 	play_triangle();
+	return (0);
 }
