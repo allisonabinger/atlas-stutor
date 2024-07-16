@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/allisonbinger/Desktop/Atlas/Stutor/atlas-stutor/Intro2C/Live/MusicExample",
+      "program": "/Users/allisonbinger/Desktop/Atlas/Stutor/atlas-stutor/Intro2C/Live/MusicExample/build/Debug/outDebug"
+    }
+  ]
+}

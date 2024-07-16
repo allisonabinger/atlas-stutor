@@ -1,0 +1,9 @@
+classes and objects
+
+doctesting
+    doc strings and building them
+    what do you test
+    type errors, start typing as if it functions 
+
+
+inheritance 
