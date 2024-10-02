@@ -1,0 +1,22 @@
+
+HTML:
+    W3 Schools:
+    https://www.w3schools.com/html/default.asp
+
+CSS:
+    Specificity Calculator:
+    https://polypane.app/css-specificity-calculator/
+
+    Selector Cheat Sheet:
+    https://www.w3schools.com/css/css_selectors.asp
+
+Colors and Design:
+
+    HTML Color Picker:
+    https://imagecolorpicker.com/
+
+    Palette Generator:
+    https://coolors.co/
+
+    Color Converter:
+    https://www.w3schools.com/colors/colors_converter.asp

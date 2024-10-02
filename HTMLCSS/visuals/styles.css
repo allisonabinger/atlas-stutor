@@ -1,0 +1,23 @@
+
+/* selects every anchor tag INSIDE and element with menu-section class */
+.menu-section a {
+    text-decoration: none;
+}
+
+/* selects any element with the menu-section AND/OR the help-section class */
+.menu-section, .help-section {
+    background-color: #fff;
+}
+
+/* selects any element that has BOTH the menu-section and the help-section class */
+.menu-section.help-section {
+    background-color: #fff23d;
+}
+
+/* selects the element with the ID help-section-title only when it is being hovered over */
+#help-section-title:hover {
+    font-size: 14px;
+}
+
+
+
